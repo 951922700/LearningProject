@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lyl.mapper.BabyinfoMapper" >
+  <resultMap id="BaseResultMap" type="com.lyl.pojo.Babyinfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="uid" property="uid" jdbcType="VARCHAR" />
+    <result column="sex" property="sex" jdbcType="VARCHAR" />
+    <result column="height" property="height" jdbcType="VARCHAR" />
+    <result column="weight" property="weight" jdbcType="VARCHAR" />
+    <result column="birthday" property="birthday" jdbcType="VARCHAR" />
+    <result column="interest" property="interest" jdbcType="VARCHAR" />
+    <result column="date" property="date" jdbcType="DATE"/>
+  </resultMap>
+
+  <select id="queryBaby" resultType="com.lyl.pojo.Babyinfo" parameterType="String">
+    select *
+    from babyinfo
+    where uid=#{uid}
+    order by date desc
+    limit 1
+  </select>
+</mapper>

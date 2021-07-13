@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace:该mapper.xml映射文件的唯一标识符 -->
+<mapper namespace="com.lyl.work.dao.DiseaseDao">
+
+    <resultMap type="com.lyl.work.entity.Disease" id="ResultMap">
+        <id column="d_id" property="dId" jdbcType="INTEGER"/>
+        <result   column="d_title" property="dTitle" jdbcType="VARCHAR"/>
+        <collection property="titleDiseases" resultMap="titleDiseasesResultMap"/>
+    </resultMap>
+
+    <resultMap type="com.lyl.work.entity.Title_Disease" id="titleDiseasesResultMap">
+
+        <result column="dc_name" property="dcName" jdbcType="VARCHAR"/>
+        <result column="dc_content" property="dcContent" jdbcType="VARCHAR"/>
+        <result column="dc_Img" property="dcImg" jdbcType="VARCHAR"/>
+        <result column="dc_video" property="dcVideo" jdbcType="VARCHAR"/>
+
+    </resultMap>
+
+
+    <sql id="Title_Column_List">
+        c.dc_name,c.dc_content,c.dc_Img,c.dc_video
+    </sql>
+
+
+    <select id="findAll" resultMap="ResultMap">
+        SELECT s.*,<include   refid="Title_Column_List"/> FROM
+        tb_disease s
+        left join tb_title_disease c
+        on c.dc_id=s.d_id
+    </select>
+
+    <select id="findById" resultMap="ResultMap" parameterType="int">
+        SELECT s.*,<include   refid="Title_Column_List"/> FROM
+        tb_disease s
+        left join tb_title_disease c
+        on c.dc_id=s.d_id
+        WHERE s.d_id=#{ID}
+    </select>
+
+</mapper>

@@ -1,0 +1,10 @@
+com\lyl\mapper\CommentsMapperCustom.class
+com\lyl\mapper\SearchRecordsMapper.class
+com\lyl\mapper\VideosMapperCustom.class
+com\lyl\mapper\UsersReportMapper.class
+com\lyl\mapper\VideosMapper.class
+com\lyl\mapper\BgmMapper.class
+com\lyl\mapper\CommentsMapper.class
+com\lyl\mapper\UsersMapper.class
+com\lyl\mapper\UsersFansMapper.class
+com\lyl\mapper\UsersLikeVideosMapper.class

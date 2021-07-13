@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lyl.work.dao.CommentDao">
+    <select id="queryAllById" parameterType="String" resultType="com.lyl.work.entity.Comment">
+        select comment_id,comment_belong_chat_id,user_img,user_name,comment_content,img_num,create_time
+        from tb_comment where comment_belong_chat_id=#{commentBelongChatId}
+    </select>
+
+    <insert id="createComment" parameterType="com.lyl.work.entity.Comment">
+        insert into tb_comment(comment_id,comment_belong_chat_id,user_img,user_name,comment_content,img_num,create_time)
+        values(#{commentId},#{commentBelongChatId},#{userImg},#{userName},#{commentContent},#{imgNum},#{createTime});
+    </insert>
+
+    <select id="queryImgNum" resultType="Integer" parameterType="String">
+        select img_num from tb_comment where comment_id=#{commentId}
+    </select>
+
+    <update id="addImgNum" parameterType="com.lyl.work.entity.ChatWall">
+        update tb_comment set img_num=#{imgNum} where comment_id=#{commentId};
+    </update>
+</mapper>

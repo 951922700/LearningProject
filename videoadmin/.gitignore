@@ -1,0 +1,6 @@
+# Project exclude paths
+/video-admin-common/target/
+/video-admin-mapper/target/
+/video-admin-mng/target/
+/video-admin-pojo/target/
+/video-admin-service/target/

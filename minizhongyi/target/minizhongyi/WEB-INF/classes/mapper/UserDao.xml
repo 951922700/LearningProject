@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lyl.o2o.dao.UserDao">
+    <!--账号密码匹配则查询出来-->
+    <select id="selectByAccount" resultType="com.lyl.o2o.entity.User" parameterType="com.lyl.o2o.entity.User">
+        SELECT account,username,password,create_time,question_collect,unit_collect
+        FROM tb_user
+        where account=#{account} and password=#{password}
+    </select>
+
+    <select id="selectAccount" resultType="com.lyl.o2o.entity.User" parameterType="com.lyl.o2o.entity.User">
+        SELECT account,username,password,create_time,question_collect,unit_collect
+        FROM tb_user
+        where account=#{account}
+    </select>
+
+    <insert id="createUser" parameterType="com.lyl.o2o.entity.User">
+        insert into tb_user(account,username,password,create_time)
+        values(#{account},#{username},#{password},#{createTime});
+    </insert>
+
+    <update id="updateQuestionCollect" parameterType="com.lyl.o2o.entity.User">
+        update tb_user set question_collect=#{questionCollect}
+        where account=#{account}
+    </update>
+
+    <update id="updateUnitCollect" parameterType="com.lyl.o2o.entity.User">
+        update tb_user set unit_collect=#{unitCollect}
+        where account=#{account}
+    </update>
+
+    <update id="updatePassword" parameterType="com.lyl.o2o.entity.User">
+        update tb_user set password=#{password}
+        where account=#{account}
+    </update>
+</mapper>

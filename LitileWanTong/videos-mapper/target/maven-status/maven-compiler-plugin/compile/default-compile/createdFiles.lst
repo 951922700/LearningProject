@@ -1,0 +1,6 @@
+com\lyl\mapper\StoreMapper.class
+com\lyl\mapper\UserMapper.class
+com\lyl\mapper\BabyinfoMapper.class
+com\lyl\mapper\DoctorMapper.class
+com\lyl\mapper\SaleMapper.class
+com\lyl\mapper\SetMapper.class

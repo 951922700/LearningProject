@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lyl.dao.AccountDao">
+    <resultMap id="accountUserMap" type="account">
+        <id property="id" column="aid"></id>
+        <result property="uid" column="uid"></result>
+        <result property="money" column="money"></result>
+        <!--一对一的关系映射，配置封装user的内容
+        这里account的id的别名是aid
+        这里的column配置的是外键,也可不写-->
+        <association property="user" column="uid" javaType="com.lyl.entity.User">
+            <id property="id" column="id"></id>
+            <result column="username" property="userName"></result>
+            <result column="address" property="address"></result>
+            <result column="sex" property="sex"></result>
+            <result column="birthday" property="birthday"></result>
+        </association>
+    </resultMap>
+    <!--延迟加载配置 select属性指定内容，查询用户的唯一标识-->
+    <resultMap id="accounYanchitMap" type="account">
+        <id property="id" column="id"></id>
+        <result property="uid" column="uid"></result>
+        <result property="money" column="money"></result>
+        <!--column不可不写，作为findById的参数-->
+        <association property="user" column="uid" javaType="com.lyl.entity.User" select="com.lyl.dao.UserDao.findById"></association>
+    </resultMap>
+    <select id="findAll" resultMap="accountUserMap">
+        select u.*,a.id as aid,a.uid,a.money from account a,user u where u.id=a.uid;
+    </select>
+    <!--一对一操作实现查关联表数据-->
+    <select id="findAllAccount" resultType="com.lyl.entity.AccountUser">
+        select a.* ,u.username,u.address from account a,user u where u.id=a.uid;
+    </select>
+    <!--延迟加载-->
+    <select id="findAllyanchi" resultMap="accounYanchitMap">
+        select * from account
+    </select>
+
+    <select id="findAccountByUid" resultType="com.lyl.entity.Account" parameterType="Integer" >
+        select * from account where uid=#{uid}
+    </select>
+</mapper>

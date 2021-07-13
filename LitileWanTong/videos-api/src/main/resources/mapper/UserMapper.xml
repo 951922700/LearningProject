@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lyl.mapper.UserMapper">
+  
+  <resultMap id="BaseResultMap" type="com.lyl.pojo.User">
+    <id column="uid" jdbcType="VARCHAR" property="uid" />
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="icon" jdbcType="VARCHAR" property="icon" />
+    <result column="city" jdbcType="VARCHAR" property="city"/>
+    <association property="babyinfo" javaType="com.lyl.pojo.Babyinfo">
+      <result column="uid" property="uid" jdbcType="VARCHAR" />
+      <result column="sex" property="sex" jdbcType="VARCHAR" />
+      <result column="height" property="height" jdbcType="VARCHAR" />
+      <result column="weight" property="weight" jdbcType="VARCHAR" />
+      <result column="birthday" property="birthday" jdbcType="VARCHAR" />
+      <result column="interest" property="interest" jdbcType="VARCHAR" />
+      <result column="date" property="date" jdbcType="DATE"/>
+    </association>
+  </resultMap>
+
+  <select id="getOne" resultMap="BaseResultMap" parameterType="String">
+    select *
+    from user u
+    left outer join babyinfo b
+    on u.uid=b.uid
+    where u.uid=#{uid}
+    order by date desc
+	limit 1;
+  </select>
+
+
+</mapper>

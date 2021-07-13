@@ -1,0 +1,63 @@
+spring:
+  datasource:
+
+    username: root
+    password: 943033940
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mybatis?serverTimezone=UTC
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+
+     initialSize: 5
+     minIdle: 5
+     maxActive: 20
+     maxWait: 60000
+     timeBetweenEvictionRunsMillis: 60000
+     minEvictableIdleTimeMillis: 300000
+     validationQuery: SELECT 1 FROM DUAL
+     testWhileIdle: true
+     testOnBorrow: false
+     testOnReturn: false
+     poolPreparedStatements: true
+
+     filters: stat,wall
+     maxPoolPreparedStatementPerConnectionSize: 20
+     useGlobalDataSourceStat: true
+     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+
+     stat-view-servlet:
+       login-password: 123456
+       login-username: admin
+       reset-enable: false
+       url-pattern: /druid/*
+
+       allow: ""
+
+       deny: "127.0.0.1"
+     web-stat-filter:
+
+       url-pattern: /*
+
+       exclusions: "*.js,*.css,/druid/*"
+#configuration 后面的是日志文件的配置
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.lyl.Bean
+
+#server:
+#  port: 80
+
+#person:
+#  lastName: "zhan\tgsan"
+#  age: 10
+#  boss: false
+#  birth: 2017/12/12
+#  maps: {k1: v1,k2: 12}
+#  dog:
+#    name: 'xiao\tgou'
+#    age: 2
+#  lists:
+#    - 1
+#    - 2
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a7707aa-e12d-4f00-818d-1d07fa33851d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1uT5ctIGCqsLllSkL1Pw4faGa3S" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AlgorithmLearn" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a7707aa-e12d-4f00-818d-1d07fa33851d" name="Default Changelist" comment="" />
+      <created>1624676820036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624676820036</updated>
+      <workItem from="1624676822965" duration="605000" />
+      <workItem from="1624800572130" duration="366000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="592" y="187" key="FileChooserDialogImpl" timestamp="1624800937993">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state x="592" y="187" key="FileChooserDialogImpl/87.0.1449.864@87.0.1449.864" timestamp="1624800937993" />
+    <state x="492" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1624800913699">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state x="492" y="256" key="com.intellij.ide.util.TipDialog/87.0.1449.864@87.0.1449.864" timestamp="1624800913699" />
+  </component>
+</project>

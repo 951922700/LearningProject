@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.springframework.org/schema/context
+          http://www.springframework.org/schema/context/spring-context.xsd
+            http://www.springframework.org/schema/aop
+            http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--
+    1.创建bean的三种方式
+    2.bean对象的作用范围
+    3.bean对象的生命周期
+    -->
+
+    <!--
+        创建bean的三种方式
+            1.使用默认构造函数创建 <bean id="bean" class="com.lyl.entity.bean"></bean>
+            在spring配置文件中使用bean标签，配以id和class属性之后，且没有其他属性和标签的时候。
+            采用的就是默认构造函数创建bean对象，此时如果类中没有默认构造函数，对象无法创建
+            2.使用普通工厂中的方法创建对象（使用某个类的某个方法创建对象，并存入spring容器）
+            就是说可能有一个jar包里面的类我们没办法修改他的默认构造函数只能通过里面的方法去获取某个类对象
+            先创建这个工厂再利用这个工厂的方法获取这个类
+            <bean id="factory" calss="com.lyl.factory"></bean>
+            <bean id="factory_object" factory-bean="factory" factory="getFactoryObject">
+            3.使用工厂中的静态方法创建对象（使用某个类中的静态方法创建对象，并存入spring容器）
+    -->
+    <!--
+        bean作用范围
+        scope:
+        取值：
+            singleton 默认 单例模式创建
+                生命周期：容器创建对象创建容器死它死
+            prototype 多例模式创建
+                生命周期：需要对象的时候再创建，对象在则就在，当对象长时间不用，且没有别的对象引用时，由java的回收机制回收
+            request 作用于web应用的请求范围
+            session 作用于web应用的会话范围
+            global-session 作用于集群环境的会话范围（全局会话范围）
+    -->
+    <!--
+    依赖注入：基本类型和String、基本类型的包装类、其他bean类、复杂类型、集合类型
+    注入的方式：使用构造函数提供、使用set方法提供、使用注解提供
+    构造函数注入：
+        标签：constructor-arg
+        位置:bean内部
+        标签中的属性
+            type：用于指定要注入的数据的数据类型，该数据类型也是构造函数中某个或某些参数的类型
+            index：用于指定要注入的数据给构造函数中指定索引位置的参数赋值，索引位置从0开始
+            name：用于指定给构造函数中指定名称的参数赋值
+            value：用于基本类型和String类型的赋值
+            ref：用于其他bean类型，类似Date元素赋值
+    优势：在获取bean对象时，注入数据是必须的操作，否则创建不成功
+    弊端：改变bean对象的实例化方式，是我们在创建对象时，如果用不到这些数据，也必须提供
+    -->
+
+    <!--<bean id="bean" class="com.lyl.entity.bean" scope="singleton"
+     init-method="init" destroy-method="destroy">
+        <constructor-arg name="name" value="猪"></constructor-arg>
+        <constructor-arg name="age" value="18"></constructor-arg>
+        <constructor-arg name="date" ref="now"></constructor-arg>
+    </bean>
+    <bean id="now" class="java.util.Date"></bean>-->
+
+    <!--
+    set方法注入:
+    必须生成set方法而且name的名字是根据set方法来进行插入的
+    setUserName
+    <bean id="bean" class="com.lyl.entity.bean" scope="singleton"
+     init-method="init" destroy-method="destroy">
+        <property name="username" value="" ref=""></property>
+    </bean>
+    优势：创建对象时没有明确的限制，可以直接使用默认构造函数
+    弊端：如果有某个成员必须有值，则获取对象是有可能set方法没有执行
+    -->
+    <!--
+    复杂类型的注入和集合类型的注入
+        用于给list结构集合注入的标签：
+        list array set
+        用于给Map结构集合注入的标签：
+        map props
+    -->
+    <!--进行注解aop先声明自动生成代理标签-->
+    <aop:aspectj-autoproxy/>
+
+    <bean id="bean3" class="com.lyl.entity.bean">
+        <property name="myStr">
+            <array>
+                <value>aaa</value>
+                <value>bbb</value>
+                <value>ccc</value>
+            </array>
+        </property>
+        <property name="muList">
+            <list>
+                <value>aaa</value>
+                <value>bbb</value>
+                <value>ccc</value>
+            </list>
+        </property>
+        <property name="mySet">
+            <set>
+                <value>aaa</value>
+                <value>bbb</value>
+                <value>ccc</value>
+            </set>
+        </property>
+        <property name="myMap">
+           <map>
+               <entry key="i">
+                   <value>bbb</value>
+               </entry>
+               <entry key="我" value="猪"></entry>
+           </map>
+        </property>
+        <property name="myProps">
+            <props>
+                <prop key="mysql">mysqlcontent</prop>
+            </props>
+        </property>
+    </bean>
+    <!--使用注解的时候要告知spring在创建容器的时候要扫描的包，配置需要的标签不在beans标签的约束中，而是一个名称为context名称空间和约束中-->
+    <context:component-scan base-package="com.lyl"></context:component-scan>
+
+    <bean id="accountService" class="com.lyl.service.Impl.AccountServiceImpl">
+        <property name="accountDao" ref="accountDao"></property>
+    </bean>
+
+    <bean id="accountDao" class="com.lyl.dao.impl.AccountDaoImpl">
+        <property name="runner" ref="runner"></property>
+    </bean>
+
+    <bean id="runner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype">
+        <!--注入数据源  使用事务回滚的时候不用注入数据源了
+        <constructor-arg name="ds" ref="dataSource"></constructor-arg>
+        -->
+
+    </bean>
+
+    <!--配置数据源-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <!--数据库信息 &amp;== & -->
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"></property>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/spring?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=GMT%2B8"></property>
+        <property name="user" value="root"></property>
+        <property name="password" value="943033940"></property>
+    </bean>
+
+    <!--spring中基于xml的aop配置的步骤
+    1.把通知bean也交给spring管理
+    2.使用aop:config标签表明开始Aop的配置
+    3.使用aop:aspect标签表明开始配置切面
+                id:给切面提供一个唯一标志
+                ref：指定通知类bean的id
+    4.在aop：aspect标签的内部使用对应标签来配置通知的类型
+            我们现在的示例是让printLog方法在切入点方法执行之前执行，所以是前置通知
+            aop:before表示前置
+                method:指定logger类哪个方法是前置通知
+                pointcut:指定切入点表达式，该表达式含义是对业务层哪些方法增强
+            切点表达式写法：
+                关键字：execution(表达式)
+                表达式：
+                    访问修饰符 返回值 包名.包名......类名.方法名( 参数列表)
+                    public void com.lyl.service.Impl.AccountServiceImpl.saveAccount(Account account)
+                    访问修饰符可以省略
+                    包名可以使用通配符，表示任意包，有几级包就需要写几个
+                    *.*.*.*
+                    包名可以使用..表示当前包及其子包
+                    * *..AccountServiceImpl.aop()
+                    类名和方法都可以用*
+                    参数列表可以用..
+                        基本类型直接写名称 int
+                        引用类型写包名.类名 java.lang.String
+                    全通配写法 * *..*.*(..)
+    -->
+
+    <!--配置logger类-->
+
+    <!--配置Aop-->
+    <aop:config>
+        <!--此标签写在aspect里面只有该切面可以用，在他外面所有切面都可以用-->
+        <aop:pointcut id="pt1" expression="execution(* com.lyl.service.Impl.*.*(..))"></aop:pointcut>
+        <aop:aspect id="logAdvice" ref="logger">
+            <!--配置通知的类型，并且建立通知方法和切入点的关联 前置、后置、异常、最终-->
+            <aop:before method="printLog" pointcut="execution(* com.lyl.service.Impl.*.*(..))"></aop:before>
+            <aop:after-returning method="afterReturningLog" pointcut-ref="pt1"></aop:after-returning>
+            <aop:after-throwing method="afterThrowingLog" pointcut-ref="pt1"></aop:after-throwing>
+            <aop:after method="afterLogger" pointcut-ref="pt1"></aop:after>
+            
+            <!--环绕通知-->
+            <aop:around method="aroundLog" pointcut-ref="pt1"></aop:around>
+        </aop:aspect>
+    </aop:config>
+</beans>

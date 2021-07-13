@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace:该mapper.xml映射文件的唯一标识符 -->
+<mapper namespace="com.lyl.work.dao.MenuDao">
+
+    <select id="queryMenuAll" resultType="com.lyl.work.entity.Menu">
+    SELECT m.m_id,m.dish_name,m.img_num,
+    c.material,c.flavouring,c.doing,c.effect,c.from,c.writer,c.series_title,c.date
+    FROM tb_menu m inner join tb_menu_content c
+    ON m.m_id=c.id
+    </select>
+
+</mapper>

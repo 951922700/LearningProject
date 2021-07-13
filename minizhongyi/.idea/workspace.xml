@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="minizhongyi:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="021c90c8-f97a-4c32-9079-d650d081aff8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/Maven/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZqvINgrh6Hhw4swzuyWEopDodm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.22">
+    <configuration name="DaoTest.testQuestion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="minizhongyi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyl.o2o.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyl.o2o.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.lyl.o2o.dao.DaoTest" />
+      <option name="METHOD_NAME" value="testQuestion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DaoTest.testUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="minizhongyi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyl.o2o.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyl.o2o.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.lyl.o2o.dao.DaoTest" />
+      <option name="METHOD_NAME" value="testUnit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DaoTest.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="minizhongyi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyl.o2o.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyl.o2o.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.lyl.o2o.dao.DaoTest" />
+      <option name="METHOD_NAME" value="testUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DaoTest.testselect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="minizhongyi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyl.o2o.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyl.o2o.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.lyl.o2o.dao.DaoTest" />
+      <option name="METHOD_NAME" value="testselect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.22" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.22" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="minizhongyi:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/minizhongyi" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_minizhongyi" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52437" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="minizhongyi:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.DaoTest.testselect" />
+      <item itemvalue="JUnit.DaoTest.testUnit" />
+      <item itemvalue="JUnit.DaoTest.testQuestion" />
+      <item itemvalue="JUnit.DaoTest.testUser" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.22" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DaoTest.testQuestion" />
+        <item itemvalue="JUnit.DaoTest.testUnit" />
+        <item itemvalue="JUnit.DaoTest.testUser" />
+        <item itemvalue="JUnit.DaoTest.testselect" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="021c90c8-f97a-4c32-9079-d650d081aff8" name="Default Changelist" comment="" />
+      <created>1582546484837</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582546484837</updated>
+      <workItem from="1582546488618" duration="2763000" />
+      <workItem from="1582594312863" duration="6607000" />
+      <workItem from="1582703399228" duration="7445000" />
+      <workItem from="1582795129812" duration="53000" />
+      <workItem from="1582941475881" duration="7728000" />
+      <workItem from="1583234992326" duration="23000" />
+      <workItem from="1583236229621" duration="609000" />
+      <workItem from="1583285114489" duration="12123000" />
+      <workItem from="1583370392115" duration="803000" />
+      <workItem from="1585125347240" duration="102000" />
+      <workItem from="1585579367615" duration="1270000" />
+      <workItem from="1586081184720" duration="765000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DaoTest_testUnit - 2020.02.29 at 10h 38m 28s.xml">
+      <configuration name="DaoTest.testUnit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaoTest_testQuestion - 2020.02.29 at 10h 57m 35s.xml">
+      <configuration name="DaoTest.testQuestion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaoTest_testUnit - 2020.02.29 at 10h 58m 11s.xml">
+      <configuration name="DaoTest.testUnit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaoTest_testUnit - 2020.02.29 at 11h 05m 14s.xml">
+      <configuration name="DaoTest.testUnit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaoTest_testQuestion - 2020.02.29 at 11h 11m 49s.xml">
+      <configuration name="DaoTest.testQuestion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaoTest_testUnit - 2020.02.29 at 11h 11m 55s.xml">
+      <configuration name="DaoTest.testUnit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaoTest_testUser - 2020.03.04 at 09h 57m 57s.xml">
+      <configuration name="DaoTest.testUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaoTest_testUnit - 2020.03.04 at 10h 11m 44s.xml">
+      <configuration name="DaoTest.testUnit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaoTest_testUnit - 2020.03.04 at 10h 12m 37s.xml">
+      <configuration name="DaoTest.testUnit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaoTest_testQuestion - 2020.03.04 at 10h 14m 49s.xml">
+      <configuration name="DaoTest.testQuestion" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="3" key="#Tomcat_Server" timestamp="1585579452547">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="3" key="#Tomcat_Server/0.0.1280.689@0.0.1280.689" timestamp="1585579452547" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585579479997">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1585579479997" />
+    <state x="-24" y="88" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1585579461851">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="-24" y="88" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1280.689@0.0.1280.689" timestamp="1585579461851" />
+    <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1586081889064">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1586081889064" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1586081539316">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1586081539316" />
+    <state x="324" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1586081184712">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="324" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1586081184712" />
+    <state x="28" y="0" key="new project wizard" timestamp="1586081948941">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="28" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1586081948941" />
+  </component>
+</project>

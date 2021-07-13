@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lyl.mapper.StoreMapper">
+  <resultMap id="BaseResultMap" type="com.lyl.pojo.Store">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="sid" jdbcType="INTEGER" property="sid" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="longitude" jdbcType="VARCHAR" property="longitude" />
+    <result column="latitude" jdbcType="VARCHAR" property="latitude" />
+    <result column="phonenumber" jdbcType="VARCHAR" property="phonenumber" />
+    <result column="images" jdbcType="INTEGER" property="images" />
+    <result column="averprice" jdbcType="DECIMAL" property="averprice" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="grade" jdbcType="INTEGER" property="grade" />
+    <result column="applynum" jdbcType="INTEGER" property="applynum" />
+    <result column="fun" jdbcType="VARCHAR" property="fun" />
+    <result column="slogan" jdbcType="VARCHAR" property="slogan" />
+    <collection property="sets" javaType="java.util.List" ofType="com.lyl.pojo.Set">
+      <result column="sid" property="sid" jdbcType="INTEGER" />
+      <result column="image" property="image" jdbcType="VARCHAR" />
+      <result column="descripe" property="descripe" jdbcType="VARCHAR" />
+      <result column="ogprice" property="ogprice" jdbcType="DECIMAL" />
+      <result column="dcprice" property="dcprice" jdbcType="DECIMAL" />
+    </collection>
+    <collection property="sales" javaType="java.util.List" ofType="com.lyl.pojo.Sale">
+      <result column="sid" property="sid" jdbcType="INTEGER" />
+      <result column="dcprice" property="dcprice" jdbcType="DECIMAL" />
+      <result column="ogprice" property="ogprice" jdbcType="DECIMAL" />
+      <result column="num" property="num" jdbcType="INTEGER" />
+      <result column="explain" property="explain" jdbcType="VARCHAR" />
+    </collection>
+  </resultMap>
+
+  <select id="getAllStoreInfo" resultMap="BaseResultMap">
+    select *
+    from `store` s
+    left outer join `set` se on
+    s.sid=se.sid
+    left outer join `sale` sa on
+    s.sid=sa.sid
+  </select>
+</mapper>

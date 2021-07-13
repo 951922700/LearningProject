@@ -1,0 +1,8 @@
+com\lyl\Application.class
+com\lyl\controller\StoreController.class
+com\lyl\controller\BasicController.class
+com\lyl\controller\DoctorController.class
+com\lyl\controller\interceptor\MiniInterceptor.class
+com\lyl\configuration\Swagger2Config.class
+com\lyl\configuration\WebMvcConfig.class
+com\lyl\controller\UserController.class

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b22ca66-5e14-4c58-994e-47dbc2ba84a9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1imGqOpQYfwcNZgBL1VMRc10oZP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunManager">
+    <configuration name="AESUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AESUtil" />
+      <module name="AES" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AESUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b22ca66-5e14-4c58-994e-47dbc2ba84a9" name="Default Changelist" comment="" />
+      <created>1602505543429</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602505543429</updated>
+      <workItem from="1602505562987" duration="2675000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1406" height="377" key="GridCell.Tab.0.bottom" timestamp="1602508394474">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state width="1406" height="377" key="GridCell.Tab.0.bottom/87.0.1449.864@87.0.1449.864" timestamp="1602508394474" />
+    <state width="1406" height="377" key="GridCell.Tab.0.center" timestamp="1602508394474">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state width="1406" height="377" key="GridCell.Tab.0.center/87.0.1449.864@87.0.1449.864" timestamp="1602508394474" />
+    <state width="1406" height="377" key="GridCell.Tab.0.left" timestamp="1602508394474">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state width="1406" height="377" key="GridCell.Tab.0.left/87.0.1449.864@87.0.1449.864" timestamp="1602508394474" />
+    <state width="1406" height="377" key="GridCell.Tab.0.right" timestamp="1602508394474">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state width="1406" height="377" key="GridCell.Tab.0.right/87.0.1449.864@87.0.1449.864" timestamp="1602508394474" />
+    <state x="221" y="42" key="new project wizard" timestamp="1602508389833">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state x="221" y="42" key="new project wizard/87.0.1449.864@87.0.1449.864" timestamp="1602508389833" />
+  </component>
+</project>

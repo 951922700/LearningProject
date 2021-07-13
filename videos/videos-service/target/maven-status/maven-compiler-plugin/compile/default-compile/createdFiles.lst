@@ -1,0 +1,6 @@
+com\lyl\service\impl\VideoServiceImpl.class
+com\lyl\service\impl\BgmServiceImpl.class
+com\lyl\service\impl\UserServiceImpl.class
+com\lyl\service\UserService.class
+com\lyl\service\BgmService.class
+com\lyl\service\VideoService.class

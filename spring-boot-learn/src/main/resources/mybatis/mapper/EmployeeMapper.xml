@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--        public Employee get(Integer id);
+
+        public void insertEmp(Employee employee);-->
+<mapper namespace="com.lyl.mapper.EmployeeMapper">
+    <select id="gettt" resultType="com.lyl.Bean.Employee" parameterType="Integer">
+        select * from employee
+        where id=#{id};
+    </select>
+    <insert id="insertEmp" parameterType="com.lyl.Bean.Employee">
+        insert into employee(lastName,email,gender,d_id)
+        values (#{lastName},#{email},#{gender},#{did});
+    </insert>
+
+    <update id="update" parameterType="com.lyl.Bean.Employee">
+        update employee set lastName=#{lastName},email=#{email},gender=#{gender},d_id=#{did}
+        where id=#{id}
+    </update>
+
+    <delete id="delete" parameterType="Integer">
+        delete  from employee
+         where id=#{id}
+    </delete>
+</mapper>

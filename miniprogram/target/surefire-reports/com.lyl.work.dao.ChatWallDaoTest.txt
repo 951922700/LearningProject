@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.lyl.work.dao.ChatWallDaoTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.79 s <<< FAILURE! - in com.lyl.work.dao.ChatWallDaoTest
+testadd(com.lyl.work.dao.ChatWallDaoTest)  Time elapsed: 1.386 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.lyl.work.dao.ChatWallDaoTest.testadd(ChatWallDaoTest.java:32)
+

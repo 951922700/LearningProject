@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace:该mapper.xml映射文件的唯一标识符 -->
+<mapper namespace="com.lyl.work.dao.ClockedDao">
+
+   <!--打卡记录查询-->
+    <select id="queryClockedByid"  parameterType="String" resultType="com.lyl.work.entity.Clocked">
+        SELECT open_id,last_time,create_time,cl_times
+        FROM tb_clocked
+        WHERE open_id = #{Id}
+    </select>
+
+    <!--更新打卡记录-->
+    <update id="updateClocked" parameterType="String" >
+        UPDATE tb_clocked
+        SET cl_times = cl_times+1,last_time = CURDATE()
+        WHERE open_id = #{Id}
+    </update>
+
+    <!--防止出现未查询次数直接打卡出现错误-->
+    <!--通常不该出现这样的情况-->
+    <insert id="insertNewClocked" parameterType="String">
+        INSERT tb_clocked(open_id,last_time,create_time,cl_times)
+        VALUE(#{newId},CURDATE(),CURDATE(),1)
+    </insert>
+
+    <!--获得用户打卡次数-->
+    <select id="queryTimes"  parameterType="String" resultType="Integer">
+        SELECT cl_times
+        FROM tb_clocked
+        WHERE open_id = #{Id}
+    </select>
+
+    <!--新用户查询次数注册入表-->
+    <insert id="insertNewOpenId" parameterType="String">
+        INSERT tb_clocked(open_id,create_time,cl_times)
+        VALUE(#{newId},CURDATE(),0)
+    </insert>
+
+</mapper>

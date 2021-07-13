@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lyl.o2o.dao.QuestionDao">
+    <select id="queryById" resultType="com.lyl.o2o.entity.Question" parameterType="com.lyl.o2o.entity.Question">
+        SELECT id,problem,choose,answer,img,analyse,cid
+        FROM tb_question
+        where id=#{id}
+    </select>
+
+    <select id="queryByCid" resultType="com.lyl.o2o.entity.Question" parameterType="com.lyl.o2o.entity.Question">
+        select id,problem,choose,answer,img,analyse,cid
+        from tb_question
+        where cid=#{cid}
+    </select>
+</mapper>

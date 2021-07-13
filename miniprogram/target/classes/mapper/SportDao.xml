@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace:该mapper.xml映射文件的唯一标识符 -->
+<mapper namespace="com.lyl.work.dao.SportDao">
+
+    <resultMap type="com.lyl.work.entity.Sport" id="ResultMap">
+        <id column="stage_id" property="stageId" jdbcType="VARCHAR"/>
+        <result column="stage_name" property="stageName" jdbcType="VARCHAR"/>
+        <collection property="stageSportList" resultMap="stageSportListResultMap"/>
+    </resultMap>
+
+    <resultMap type="com.lyl.work.entity.Stage_Sport" id="stageSportListResultMap">
+
+        <result column="sport_name" property="sportName" jdbcType="VARCHAR"/>
+        <result column="sport_content" property="sportContent" jdbcType="VARCHAR"/>
+        <result column="Img" property="Img" jdbcType="VARCHAR"/>
+        <result column="Img2" property="Img2" jdbcType="VARCHAR"/>
+        <result column="video" property="video" jdbcType="VARCHAR"/>
+
+    </resultMap>
+
+
+    <sql id="Stage_Column_List">
+        c.id,c.sport_name,c.sport_content,c.Img,c.Img2,c.video
+    </sql>
+
+
+    <select id="findAll" resultMap="ResultMap">
+        SELECT s.*,<include   refid="Stage_Column_List"/> FROM
+        tb_sport s
+        left join tb_stage_sport c
+        on c.id=s.stage_id
+    </select>
+
+    <select id="findById" resultMap="ResultMap" parameterType="int">
+        SELECT s.*,<include   refid="Stage_Column_List"/> FROM
+        tb_sport s
+        left join tb_stage_sport c
+        on c.id=s.stage_id
+        WHERE s.stage_id = #{ID}
+    </select>
+
+</mapper>

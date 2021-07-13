@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+">
+    <!--要让这个配置类生效，得在web.xml添加全局变量-->
+
+    <!--开启注解扫描
+    <context:component-scan>标签上，增加use-default-filters="false"，
+    就是真的只扫描context:include-filter包括的内容
+    -->
+    <context:component-scan base-package="com.lyl" use-default-filters="false">
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+    <!--配置视图解析器对象-->
+    <bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!--表示文件所在的目录-->
+        <property name="prefix" value="/WEB-INF/pages/"></property>
+        <!--文件后缀名-->
+        <property name="suffix" value=".jsp"></property>
+    </bean>
+
+    <!--告诉前端控制器哪些静态资源不拦截，比如js，css,你直接用script引用jquery.js是会被拦截的
+    location元素表示webapp目录下的static包下的所有文件；
+    mapping元素表示以/static开头的所有请求路径，如/static/a 或者/static/a/b；
+    该配置的作用是：DispatcherServlet不会拦截以/static开头的所有请求路径，并当作静态资源
+    交由Servlet处理。
+    -->
+    <mvc:resources location="/img/" mapping="/img/**"/>
+    <mvc:resources location="/js/" mapping="/js/**"/>
+    <mvc:resources location="/css/" mapping="/css/**"/>
+
+    <!--开启springMVC框架注解的支持-->
+    <mvc:annotation-driven />
+</beans>

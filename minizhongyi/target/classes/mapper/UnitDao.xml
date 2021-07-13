@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lyl.o2o.dao.UnitDao">
+
+    <!--一对多关系映射-->
+    <resultMap id="unitTitle" type="com.lyl.o2o.entity.UnitTitle">
+        <result property="uid" column="uid"></result>
+        <result property="title" column="title"></result>
+        <collection property="units" ofType="com.lyl.o2o.entity.Unit">
+            <id column="cid" property="cid"></id>
+            <result property="uid" column="uid"></result>
+            <result property="content" column="content"></result>
+            <result property="imgUrl" column="img_url"></result>
+        </collection>
+    </resultMap>
+
+    <select id="queryUnitById" resultMap="unitTitle" parameterType="com.lyl.o2o.entity.Unit">
+        SELECT u.*,ut.*
+        FROM tb_unit u left outer join tb_unit_title ut on u.uid=ut.uid
+        where u.uid=#{uid}
+    </select>
+
+    <select id="queryUnitByCid" parameterType="com.lyl.o2o.entity.Unit" resultType="com.lyl.o2o.entity.Unit">
+        select uid,content,img_url,cid,title
+        from tb_unit
+        where cid=#{cid}
+    </select>
+
+</mapper>

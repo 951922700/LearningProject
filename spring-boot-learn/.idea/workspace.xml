@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="76d977b4-5ccb-4627-bdfb-a5627d933501" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a9HUtrmoBqmNMOcq23GS9qHRNy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IDEAProject\spring-boot-learn\src\main\resources\sql" />
+      <recent name="F:\IDEAProject\spring-boot-learn\src\main\resources\resources" />
+      <recent name="F:\IDEAProject\spring-boot-learn\src\main\resources\templates" />
+      <recent name="F:\IDEAProject\spring-boot-learn\src\main\resources\static" />
+      <recent name="F:\IDEAProject\spring-boot-learn\src\main\java\com\lyl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\IDEAProject\spring-boot-learn\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SpringBootLearnApplicationTests.sendComplexMail">
+    <configuration name="SpringBootLearnApplicationTests.contextLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyl" />
+      <option name="MAIN_CLASS_NAME" value="com.lyl.SpringBootLearnApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoad" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootLearnApplicationTests.recieve" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyl" />
+      <option name="MAIN_CLASS_NAME" value="com.lyl.SpringBootLearnApplicationTests" />
+      <option name="METHOD_NAME" value="recieve" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootLearnApplicationTests.sendComplexMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyl" />
+      <option name="MAIN_CLASS_NAME" value="com.lyl.SpringBootLearnApplicationTests" />
+      <option name="METHOD_NAME" value="sendComplexMail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootLearnApplicationTests.sendMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyl" />
+      <option name="MAIN_CLASS_NAME" value="com.lyl.SpringBootLearnApplicationTests" />
+      <option name="METHOD_NAME" value="sendMail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootLearnApplicationTests.testEm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyl" />
+      <option name="MAIN_CLASS_NAME" value="com.lyl.SpringBootLearnApplicationTests" />
+      <option name="METHOD_NAME" value="testEm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderTiketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="provider-tiket" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lyl.providertiket.ProviderTiketApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootLearnApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-learn" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lyl.SpringBootLearnApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringBootLearnApplicationTests.sendComplexMail" />
+        <item itemvalue="JUnit.SpringBootLearnApplicationTests.sendMail" />
+        <item itemvalue="JUnit.SpringBootLearnApplicationTests.contextLoad" />
+        <item itemvalue="JUnit.SpringBootLearnApplicationTests.recieve" />
+        <item itemvalue="JUnit.SpringBootLearnApplicationTests.testEm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76d977b4-5ccb-4627-bdfb-a5627d933501" name="Default Changelist" comment="" />
+      <created>1586140908167</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586140908167</updated>
+      <workItem from="1586140912372" duration="7960000" />
+      <workItem from="1586353173977" duration="2333000" />
+      <workItem from="1586479951481" duration="1498000" />
+      <workItem from="1586505751217" duration="113000" />
+      <workItem from="1586781014504" duration="5467000" />
+      <workItem from="1586849265014" duration="20000" />
+      <workItem from="1586999501314" duration="7878000" />
+      <workItem from="1587083456298" duration="1394000" />
+      <workItem from="1587647175189" duration="8695000" />
+      <workItem from="1587691034541" duration="6584000" />
+      <workItem from="1587739458910" duration="419000" />
+      <workItem from="1587862317914" duration="10029000" />
+      <workItem from="1587951274348" duration="4679000" />
+      <workItem from="1588033969258" duration="2151000" />
+      <workItem from="1588488362198" duration="5135000" />
+      <workItem from="1588556355779" duration="1511000" />
+      <workItem from="1588663139867" duration="5618000" />
+      <workItem from="1588990921063" duration="599000" />
+      <workItem from="1589033851409" duration="806000" />
+      <workItem from="1594781136937" duration="5547000" />
+      <workItem from="1594820373589" duration="606000" />
+      <workItem from="1594955113651" duration="1851000" />
+      <workItem from="1595073653689" duration="17982000" />
+      <workItem from="1595250359448" duration="2521000" />
+      <workItem from="1595318732393" duration="5503000" />
+      <workItem from="1595987182187" duration="2937000" />
+      <workItem from="1596073690443" duration="6598000" />
+      <workItem from="1596269559191" duration="4510000" />
+      <workItem from="1596590731411" duration="1657000" />
+      <workItem from="1602295745000" duration="140000" />
+      <workItem from="1602505457014" duration="99000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="457" y="184" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595150336000">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state x="457" y="184" key="#com.intellij.fileTypes.FileTypeChooser/87.0.1449.864@87.0.1449.864" timestamp="1595150336000" />
+    <state x="480" y="114" width="591" height="581" key="#com.intellij.ide.util.MemberChooser" timestamp="1596098167545">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state x="480" y="114" key="#com.intellij.ide.util.MemberChooser/87.0.1449.864@87.0.1449.864" timestamp="1596098167545" />
+    <state x="549" y="168" key="#com.intellij.ws.actions.GenerateWsdlFromJavaDialog" timestamp="1595319767373">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state x="549" y="168" key="#com.intellij.ws.actions.GenerateWsdlFromJavaDialog/87.0.1449.864@87.0.1449.864" timestamp="1595319767373" />
+    <state width="1406" height="222" key="GridCell.Tab.0.bottom" timestamp="1596286441814">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state width="1406" height="222" key="GridCell.Tab.0.bottom/87.0.1449.864@87.0.1449.864" timestamp="1596286441814" />
+    <state width="1406" height="222" key="GridCell.Tab.0.center" timestamp="1596286441814">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state width="1406" height="222" key="GridCell.Tab.0.center/87.0.1449.864@87.0.1449.864" timestamp="1596286441814" />
+    <state width="1406" height="222" key="GridCell.Tab.0.left" timestamp="1596286441814">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state width="1406" height="222" key="GridCell.Tab.0.left/87.0.1449.864@87.0.1449.864" timestamp="1596286441814" />
+    <state width="1406" height="222" key="GridCell.Tab.0.right" timestamp="1596286441814">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state width="1406" height="222" key="GridCell.Tab.0.right/87.0.1449.864@87.0.1449.864" timestamp="1596286441814" />
+    <state width="1406" height="362" key="GridCell.Tab.1.bottom" timestamp="1596285380910">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state width="1406" height="362" key="GridCell.Tab.1.bottom/87.0.1449.864@87.0.1449.864" timestamp="1596285380910" />
+    <state width="1406" height="362" key="GridCell.Tab.1.center" timestamp="1596285380909">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state width="1406" height="362" key="GridCell.Tab.1.center/87.0.1449.864@87.0.1449.864" timestamp="1596285380909" />
+    <state width="1406" height="362" key="GridCell.Tab.1.left" timestamp="1596285380909">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state width="1406" height="362" key="GridCell.Tab.1.left/87.0.1449.864@87.0.1449.864" timestamp="1596285380909" />
+    <state width="1406" height="362" key="GridCell.Tab.1.right" timestamp="1596285380909">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state width="1406" height="362" key="GridCell.Tab.1.right/87.0.1449.864@87.0.1449.864" timestamp="1596285380909" />
+    <state x="455" y="212" key="com.intellij.ide.util.TipDialog" timestamp="1602505455655">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state x="455" y="212" key="com.intellij.ide.util.TipDialog/87.0.1449.864@87.0.1449.864" timestamp="1602505455655" />
+    <state x="255" y="83" key="new project wizard" timestamp="1602505540398">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state x="255" y="83" key="new project wizard/87.0.1449.864@87.0.1449.864" timestamp="1602505540398" />
+    <state x="469" y="197" key="run.anything.popup" timestamp="1595252740170">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state x="469" y="197" key="run.anything.popup/87.0.1449.864@87.0.1449.864" timestamp="1595252740170" />
+  </component>
+</project>

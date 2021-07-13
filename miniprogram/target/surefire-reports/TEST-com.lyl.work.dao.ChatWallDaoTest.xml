@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.lyl.work.dao.ChatWallDaoTest" time="5.79" tests="2" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="C:\user\miniprogram\target\test-classes;C:\user\miniprogram\target\classes;C:\repository\junit\junit\4.12\junit-4.12.jar;C:\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\repository\org\springframework\spring-core\4.3.7.RELEASE\spring-core-4.3.7.RELEASE.jar;C:\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\repository\org\springframework\spring-beans\4.3.7.RELEASE\spring-beans-4.3.7.RELEASE.jar;C:\repository\org\springframework\spring-context\4.3.7.RELEASE\spring-context-4.3.7.RELEASE.jar;C:\repository\org\springframework\spring-aop\4.3.7.RELEASE\spring-aop-4.3.7.RELEASE.jar;C:\repository\org\springframework\spring-expression\4.3.7.RELEASE\spring-expression-4.3.7.RELEASE.jar;C:\repository\org\springframework\spring-jdbc\4.3.7.RELEASE\spring-jdbc-4.3.7.RELEASE.jar;C:\repository\org\springframework\spring-tx\4.3.7.RELEASE\spring-tx-4.3.7.RELEASE.jar;C:\repository\org\springframework\spring-web\4.3.7.RELEASE\spring-web-4.3.7.RELEASE.jar;C:\repository\org\springframework\spring-webmvc\4.3.7.RELEASE\spring-webmvc-4.3.7.RELEASE.jar;C:\repository\org\springframework\spring-test\4.3.7.RELEASE\spring-test-4.3.7.RELEASE.jar;C:\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\repository\com\fasterxml\jackson\core\jackson-core\2.9.0\jackson-core-2.9.0.jar;C:\repository\com\fasterxml\jackson\core\jackson-databind\2.9.0\jackson-databind-2.9.0.jar;C:\repository\commons-collections\commons-collections\3.2\commons-collections-3.2.jar;C:\repository\org\mybatis\mybatis\3.4.2\mybatis-3.4.2.jar;C:\repository\org\mybatis\mybatis-spring\1.3.1\mybatis-spring-1.3.1.jar;C:\repository\mysql\mysql-connector-java\8.0.15\mysql-connector-java-8.0.15.jar;C:\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\repository\c3p0\c3p0\0.9.1.2\c3p0-0.9.1.2.jar;C:\repository\commons-fileupload\commons-fileupload\1.3.1\commons-fileupload-1.3.1.jar;C:\repository\commons-io\commons-io\2.2\commons-io-2.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows Server 2012 R2"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\2\surefire6213575322112028526\surefirebooter1854706457320647625.jar C:\Users\Administrator\AppData\Local\Temp\2\surefire6213575322112028526 2020-02-22T23-23-39_531-jvmRun1 surefire5867111964092214255tmp surefire_05652039275926441550tmp"/>
+    <property name="surefire.test.class.path" value="C:\user\miniprogram\target\test-classes;C:\user\miniprogram\target\classes;C:\repository\junit\junit\4.12\junit-4.12.jar;C:\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\repository\org\springframework\spring-core\4.3.7.RELEASE\spring-core-4.3.7.RELEASE.jar;C:\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\repository\org\springframework\spring-beans\4.3.7.RELEASE\spring-beans-4.3.7.RELEASE.jar;C:\repository\org\springframework\spring-context\4.3.7.RELEASE\spring-context-4.3.7.RELEASE.jar;C:\repository\org\springframework\spring-aop\4.3.7.RELEASE\spring-aop-4.3.7.RELEASE.jar;C:\repository\org\springframework\spring-expression\4.3.7.RELEASE\spring-expression-4.3.7.RELEASE.jar;C:\repository\org\springframework\spring-jdbc\4.3.7.RELEASE\spring-jdbc-4.3.7.RELEASE.jar;C:\repository\org\springframework\spring-tx\4.3.7.RELEASE\spring-tx-4.3.7.RELEASE.jar;C:\repository\org\springframework\spring-web\4.3.7.RELEASE\spring-web-4.3.7.RELEASE.jar;C:\repository\org\springframework\spring-webmvc\4.3.7.RELEASE\spring-webmvc-4.3.7.RELEASE.jar;C:\repository\org\springframework\spring-test\4.3.7.RELEASE\spring-test-4.3.7.RELEASE.jar;C:\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\repository\com\fasterxml\jackson\core\jackson-core\2.9.0\jackson-core-2.9.0.jar;C:\repository\com\fasterxml\jackson\core\jackson-databind\2.9.0\jackson-databind-2.9.0.jar;C:\repository\commons-collections\commons-collections\3.2\commons-collections-3.2.jar;C:\repository\org\mybatis\mybatis\3.4.2\mybatis-3.4.2.jar;C:\repository\org\mybatis\mybatis-spring\1.3.1\mybatis-spring-1.3.1.jar;C:\repository\mysql\mysql-connector-java\8.0.15\mysql-connector-java-8.0.15.jar;C:\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\repository\c3p0\c3p0\0.9.1.2\c3p0-0.9.1.2.jar;C:\repository\commons-fileupload\commons-fileupload\1.3.1\commons-fileupload-1.3.1.jar;C:\repository\commons-io\commons-io\2.2\commons-io-2.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_91\jre"/>
+    <property name="basedir" value="C:\user\miniprogram"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\2\surefire6213575322112028526\surefirebooter1854706457320647625.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_91-b15"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.3"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\2\"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="user.dir" value="C:\user\miniprogram"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="idea.version2019.1" value="true"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\apache-maven-3.5.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.91-b15"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testadd" classname="com.lyl.work.dao.ChatWallDaoTest" time="1.386">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.lyl.work.dao.ChatWallDaoTest.testadd(ChatWallDaoTest.java:32)
+</error>
+    <system-out><![CDATA[23:23:45.193 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+23:23:45.384 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+23:23:45.384 [main] DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+23:23:45.387 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+23:23:45.388 [main] DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+23:23:45.389 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+23:23:45.389 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/user/miniprogram/target/classes/com/lyl/work/entity
+23:23:45.389 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/user/miniprogram/target/classes/com/lyl/work/entity
+23:23:45.596 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ChatWall.class
+23:23:45.597 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Clocked.class
+23:23:45.597 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Comment.class
+23:23:45.598 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Disease.class
+23:23:45.598 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Menu.class
+23:23:45.599 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Sport.class
+23:23:45.599 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: User.class
+23:23:45.601 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/user/miniprogram/target/classes/com/lyl/work/entity
+23:23:45.601 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/user/miniprogram/target/classes/com/lyl/work/entity/ChatWall.class
+23:23:45.680 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/user/miniprogram/target/classes/com/lyl/work/entity/ChatWall.class
+23:23:45.683 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;3&amp#0;c
+23:23:45.685 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/user/miniprogram/target/classes/com/lyl/work/entity/Clocked.class
+23:23:45.685 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/user/miniprogram/target/classes/com/lyl/work/entity/Clocked.class
+23:23:45.691 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;3&amp#0;H
+23:23:45.691 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/user/miniprogram/target/classes/com/lyl/work/entity/Comment.class
+23:23:45.692 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/user/miniprogram/target/classes/com/lyl/work/entity/Comment.class
+23:23:45.694 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;3&amp#0;\
+23:23:45.694 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/user/miniprogram/target/classes/com/lyl/work/entity/Disease.class
+23:23:45.694 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/user/miniprogram/target/classes/com/lyl/work/entity/Disease.class
+23:23:45.697 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;3&amp#0;5
+23:23:45.697 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/user/miniprogram/target/classes/com/lyl/work/entity/Menu.class
+23:23:45.697 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/user/miniprogram/target/classes/com/lyl/work/entity/Menu.class
+23:23:45.701 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;3&amp#0;8
+23:23:45.702 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/user/miniprogram/target/classes/com/lyl/work/entity/Sport.class
+23:23:45.703 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/user/miniprogram/target/classes/com/lyl/work/entity/Sport.class
+23:23:45.786 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;3&amp#0;5
+23:23:45.786 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/user/miniprogram/target/classes/com/lyl/work/entity/User.class
+23:23:45.786 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/user/miniprogram/target/classes/com/lyl/work/entity/User.class
+23:23:45.789 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;3&amp#0;B
+23:23:45.790 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.lyl.work.entity.ChatWall matches criteria [is assignable to Object]
+23:23:45.791 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.lyl.work.entity.Clocked matches criteria [is assignable to Object]
+23:23:45.792 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.lyl.work.entity.Comment matches criteria [is assignable to Object]
+23:23:45.792 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.lyl.work.entity.Disease matches criteria [is assignable to Object]
+23:23:45.793 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.lyl.work.entity.Menu matches criteria [is assignable to Object]
+23:23:45.793 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.lyl.work.entity.Sport matches criteria [is assignable to Object]
+23:23:45.795 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.lyl.work.entity.User matches criteria [is assignable to Object]
+23:23:45.797 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Scanned package: 'com.lyl.work.entity' for aliases
+23:23:45.907 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis-config]'
+23:23:46.046 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\user\miniprogram\target\classes\mapper\ChatWallDao.xml]'
+23:23:46.093 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\user\miniprogram\target\classes\mapper\ClockedDao.xml]'
+23:23:46.123 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\user\miniprogram\target\classes\mapper\CommentDao.xml]'
+23:23:46.144 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\user\miniprogram\target\classes\mapper\DiseaseDao.xml]'
+23:23:46.191 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\user\miniprogram\target\classes\mapper\MenuDao.xml]'
+23:23:46.206 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\user\miniprogram\target\classes\mapper\SportDao.xml]'
+23:23:46.341 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\user\miniprogram\target\classes\mapper\UserDao.xml]'
+23:23:46.763 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+23:23:46.769 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@266374ef] was not registered for synchronization because synchronization is not active
+23:23:47.779 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7ef27d7f] will not be managed by Spring
+23:23:47.792 [main] DEBUG com.lyl.work.dao.ChatWallDao.queryImgNum - ==>  Preparing: select img_num from tb_chatWall where chat_id=? 
+23:23:47.866 [main] DEBUG com.lyl.work.dao.ChatWallDao.queryImgNum - ==> Parameters: 2(String)
+23:23:47.921 [main] DEBUG com.lyl.work.dao.ChatWallDao.queryImgNum - <==      Total: 0
+23:23:47.928 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@266374ef]
+]]></system-out>
+    <system-err><![CDATA[二月 22, 2020 11:23:42 下午 org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+信息: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+二月 22, 2020 11:23:42 下午 org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+信息: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@72d818d1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6e06451e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@59494225, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6e1567f1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5cb9f472, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@cb644e]
+二月 22, 2020 11:23:42 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+二月 22, 2020 11:23:43 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from class path resource [spring/spring-service.xml]
+二月 22, 2020 11:23:43 下午 org.springframework.context.support.GenericApplicationContext prepareRefresh
+信息: Refreshing org.springframework.context.support.GenericApplicationContext@2b9627bc: startup date [Sat Feb 22 23:23:43 CST 2020]; root of context hierarchy
+二月 22, 2020 11:23:44 下午 com.mchange.v2.log.MLog <clinit>
+信息: MLog clients using java 1.4+ standard logging.
+二月 22, 2020 11:23:44 下午 com.mchange.v2.c3p0.C3P0Registry banner
+信息: Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+二月 22, 2020 11:23:46 下午 com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource getPoolManager
+信息: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 2, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 10000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1bqqd85a8udqk8xmvem8y|79079097, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1bqqd85a8udqk8xmvem8y|79079097, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/mini?useUnicode=true&autoReconnect=true&serverTimezone=GMT%2B8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+]]></system-err>
+  </testcase>
+  <testcase name="testQuery" classname="com.lyl.work.dao.ChatWallDaoTest" time="0.042"/>
+</testsuite>

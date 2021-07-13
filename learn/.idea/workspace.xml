@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="27f8b3be-ffba-4178-a423-690a1aab4c3b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a7qb3CHd7dqEx2GU5ce2oM4Qqa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\IDEAProject\learn\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AccountTest.testFindAllAccountYanchi">
+    <configuration name="AccountTest.testFindAllAccountYanchi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyl.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyl.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lyl.test.AccountTest" />
+      <option name="METHOD_NAME" value="testFindAllAccountYanchi" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.testFindAllAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyl.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyl.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lyl.test.AccountTest" />
+      <option name="METHOD_NAME" value="testFindAllAnnotation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testDeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyl.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyl.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lyl.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testDeleteUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testFindAllAnotstion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyl.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyl.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lyl.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testFindAllAnotstion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testSaveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyl.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyl.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lyl.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testSaveUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccountTest.testFindAllAccountYanchi" />
+        <item itemvalue="JUnit.AccountTest.testFindAllAnnotation" />
+        <item itemvalue="JUnit.MybatisTest.testFindAllAnotstion" />
+        <item itemvalue="JUnit.MybatisTest.testSaveUser" />
+        <item itemvalue="JUnit.MybatisTest.testDeleteUser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27f8b3be-ffba-4178-a423-690a1aab4c3b" name="Default Changelist" comment="" />
+      <created>1571925470371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571925470371</updated>
+      <workItem from="1571925473274" duration="7864000" />
+      <workItem from="1572153462258" duration="161000" />
+      <workItem from="1572223720070" duration="2564000" />
+      <workItem from="1572257633182" duration="5912000" />
+      <workItem from="1572360522255" duration="2957000" />
+      <workItem from="1572519419277" duration="3023000" />
+      <workItem from="1572778561231" duration="7963000" />
+      <workItem from="1572866896692" duration="7209000" />
+      <workItem from="1572960525342" duration="6123000" />
+      <workItem from="1573045786926" duration="4645000" />
+      <workItem from="1573214632199" duration="42000" />
+      <workItem from="1573890285325" duration="9435000" />
+      <workItem from="1573976784795" duration="12474000" />
+      <workItem from="1574036397309" duration="3076000" />
+      <workItem from="1574074661362" duration="5758000" />
+      <workItem from="1574085922311" duration="1082000" />
+      <workItem from="1574249623813" duration="288000" />
+      <workItem from="1575205709780" duration="58000" />
+      <workItem from="1580355126962" duration="500000" />
+      <workItem from="1580358040647" duration="1230000" />
+      <workItem from="1581130195700" duration="675000" />
+      <workItem from="1581753939775" duration="902000" />
+      <workItem from="1581769625316" duration="759000" />
+      <workItem from="1581828775055" duration="907000" />
+      <workItem from="1582795186252" duration="738000" />
+      <workItem from="1582941397089" duration="3014000" />
+      <workItem from="1586097049995" duration="1920000" />
+      <workItem from="1586140518743" duration="389000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MybatisTest_testSaveUser - 2019.11.18 at 09h 23m 23s.xml">
+      <configuration name="MybatisTest.testSaveUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountTest_testFindAllAnnotation - 2019.11.18 at 19h 20m 46s.xml">
+      <configuration name="AccountTest.testFindAllAnnotation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountTest_testFindAllAnnotation - 2019.11.18 at 19h 27m 22s.xml">
+      <configuration name="AccountTest.testFindAllAnnotation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisTest_testFindAllAnotstion - 2019.11.18 at 19h 28m 20s.xml">
+      <configuration name="MybatisTest.testFindAllAnotstion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountTest_testFindAllAnnotation - 2019.11.18 at 20h 12m 01s.xml">
+      <configuration name="AccountTest.testFindAllAnnotation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountTest_testFindAllAnnotation - 2019.11.18 at 20h 12m 49s.xml">
+      <configuration name="AccountTest.testFindAllAnnotation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountTest_testFindAllAnnotation - 2019.11.18 at 20h 16m 03s.xml">
+      <configuration name="AccountTest.testFindAllAnnotation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountTest_testFindAllAnnotation - 2019.11.18 at 20h 18m 21s.xml">
+      <configuration name="AccountTest.testFindAllAnnotation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountTest_testFindAllAccountYanchi - 2019.11.18 at 20h 42m 22s.xml">
+      <configuration name="AccountTest.testFindAllAccountYanchi" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountTest_testFindAllAccountYanchi - 2019.11.18 at 20h 47m 58s.xml">
+      <configuration name="AccountTest.testFindAllAccountYanchi" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1586140615271">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1586140615271" />
+    <state x="325" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1586140515734">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="325" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1586140515734" />
+    <state x="28" y="40" key="new project wizard" timestamp="1586140907880">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="28" y="40" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1586140907880" />
+  </component>
+</project>

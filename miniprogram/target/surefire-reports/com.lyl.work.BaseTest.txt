@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.lyl.work.BaseTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.359 s <<< FAILURE! - in com.lyl.work.BaseTest
+initializationError(com.lyl.work.BaseTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Exception: No runnable methods
+

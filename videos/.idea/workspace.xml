@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2008fd02-2047-4e0e-aaed-37ce9377e7f3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ft0AOT8zy6EiCeqZqWrwwbTDB6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lyl.pojo.vo" />
+      <recent name="com.lyl.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IDEAProject\videos\videos-api\src\main\resources\mapper" />
+      <recent name="F:\IDEAProject\videos\videos-pojo\src\main\java\com\lyl\pojo\vo" />
+      <recent name="F:\IDEAProject\videos\videos-mapper\src\main\java\com\lyl\mapper" />
+      <recent name="F:\IDEAProject\videos\videos-api\src\main\java\com\lyl\controller" />
+      <recent name="F:\IDEAProject\videos\videos-common\src\main\java\com\lyl\enums" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.VideosApiApplication">
+    <configuration name="FFMpegTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyl.utils.FFMpegTest" />
+      <module name="videos-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyl.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeVideoMp3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyl.utils.MergeVideoMp3" />
+      <module name="videos-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyl.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VideosApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="videos-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lyl.VideosApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.VideosApiApplication" />
+        <item itemvalue="Application.MergeVideoMp3" />
+        <item itemvalue="Application.FFMpegTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2008fd02-2047-4e0e-aaed-37ce9377e7f3" name="Default Changelist" comment="" />
+      <created>1597021936181</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597021936181</updated>
+      <workItem from="1597021940300" duration="18286000" />
+      <workItem from="1597198760693" duration="7348000" />
+      <workItem from="1597306492352" duration="10019000" />
+      <workItem from="1597409155148" duration="3678000" />
+      <workItem from="1597476915557" duration="2555000" />
+      <workItem from="1597561678040" duration="2652000" />
+      <workItem from="1597739623502" duration="5255000" />
+      <workItem from="1597800962004" duration="7232000" />
+      <workItem from="1597889653159" duration="6982000" />
+      <workItem from="1597995997371" duration="4426000" />
+      <workItem from="1598171607182" duration="1632000" />
+      <workItem from="1598254871410" duration="5411000" />
+      <workItem from="1598881490523" duration="6009000" />
+      <workItem from="1598949472965" duration="366000" />
+      <workItem from="1598949999996" duration="1910000" />
+      <workItem from="1599097433962" duration="3241000" />
+      <workItem from="1599199695248" duration="6373000" />
+      <workItem from="1599290488283" duration="2672000" />
+      <workItem from="1599374452887" duration="5403000" />
+      <workItem from="1599615898075" duration="12297000" />
+      <workItem from="1599986038085" duration="876000" />
+      <workItem from="1600175352587" duration="429000" />
+      <workItem from="1606266993602" duration="395000" />
+      <workItem from="1606637495949" duration="9292000" />
+      <workItem from="1608035040368" duration="278000" />
+      <workItem from="1618649997505" duration="69000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="617" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1599619469634">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state x="617" y="141" key="#com.intellij.ide.util.MemberChooser/87.0.1449.864@87.0.1449.864" timestamp="1599619469634" />
+    <state x="542" y="216" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606655531700">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state x="542" y="216" key="#com.intellij.ide.util.TreeClassChooserDialog/87.0.1449.864@87.0.1449.864" timestamp="1606655531700" />
+    <state x="592" y="187" key="FileChooserDialogImpl" timestamp="1606655247120">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state x="592" y="187" key="FileChooserDialogImpl/87.0.1449.864@87.0.1449.864" timestamp="1606655247120" />
+    <state width="1406" height="270" key="GridCell.Tab.0.bottom" timestamp="1606656215506">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state width="1406" height="270" key="GridCell.Tab.0.bottom/87.0.1449.864@87.0.1449.864" timestamp="1606656215506" />
+    <state width="1406" height="270" key="GridCell.Tab.0.center" timestamp="1606656215506">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state width="1406" height="270" key="GridCell.Tab.0.center/87.0.1449.864@87.0.1449.864" timestamp="1606656215506" />
+    <state width="1406" height="270" key="GridCell.Tab.0.left" timestamp="1606656215506">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state width="1406" height="270" key="GridCell.Tab.0.left/87.0.1449.864@87.0.1449.864" timestamp="1606656215506" />
+    <state width="1406" height="270" key="GridCell.Tab.0.right" timestamp="1606656215506">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state width="1406" height="270" key="GridCell.Tab.0.right/87.0.1449.864@87.0.1449.864" timestamp="1606656215506" />
+    <state width="1406" height="410" key="GridCell.Tab.1.bottom" timestamp="1606638395748">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state width="1406" height="410" key="GridCell.Tab.1.bottom/87.0.1449.864@87.0.1449.864" timestamp="1606638395748" />
+    <state width="1406" height="410" key="GridCell.Tab.1.center" timestamp="1606638395747">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state width="1406" height="410" key="GridCell.Tab.1.center/87.0.1449.864@87.0.1449.864" timestamp="1606638395747" />
+    <state width="1406" height="410" key="GridCell.Tab.1.left" timestamp="1606638395747">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state width="1406" height="410" key="GridCell.Tab.1.left/87.0.1449.864@87.0.1449.864" timestamp="1606638395747" />
+    <state width="1406" height="410" key="GridCell.Tab.1.right" timestamp="1606638395748">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state width="1406" height="410" key="GridCell.Tab.1.right/87.0.1449.864@87.0.1449.864" timestamp="1606638395748" />
+    <state x="292" y="7" key="SettingsEditor" timestamp="1606655577085">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state x="292" y="7" key="SettingsEditor/87.0.1449.864@87.0.1449.864" timestamp="1606655577085" />
+    <state x="492" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1608035056943">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state x="492" y="256" key="com.intellij.ide.util.TipDialog/87.0.1449.864@87.0.1449.864" timestamp="1608035056943" />
+    <state x="221" y="85" key="new project wizard" timestamp="1608035318889">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state x="221" y="85" key="new project wizard/87.0.1449.864@87.0.1449.864" timestamp="1608035318889" />
+    <state x="469" y="197" key="run.anything.popup" timestamp="1606655137363">
+      <screen x="87" y="0" width="1449" height="864" />
+    </state>
+    <state x="469" y="197" key="run.anything.popup/87.0.1449.864@87.0.1449.864" timestamp="1606655137363" />
+  </component>
+</project>

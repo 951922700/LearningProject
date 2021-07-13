@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lyl.work.dao.ChatWallDao">
+    <select id="queryAll" resultType="com.lyl.work.entity.ChatWall">
+        SELECT chat_id,user_img,user_name,content,img_num,create_time,title,is_not
+        FROM tb_chatWall
+    </select>
+
+    <insert id="createChatWall" parameterType="com.lyl.work.entity.ChatWall">
+        insert into tb_chatWall(chat_id,user_img,user_name,content,img_num,title,create_time,is_not)
+        values(#{chatId},#{userImg},#{userName},#{content},#{imgNum},#{title},#{createTime},#{isNot});
+    </insert>
+
+    <select id="queryImgNum" resultType="Integer" parameterType="String">
+        select img_num from tb_chatWall where chat_id=#{chatId}
+    </select>
+
+    <update id="addImgNum" parameterType="com.lyl.work.entity.ChatWall">
+        update tb_chatWall set img_num=#{imgNum} where chat_id=#{chatId};
+    </update>
+
+</mapper>
